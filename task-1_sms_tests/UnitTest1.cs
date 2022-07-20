@@ -12,7 +12,8 @@ public class UnitTest1
     public void Should_FindTheMaximumProductBetweenTwoNumbers_FromTheArray_ThatIsMultipleOf3(int[] numbers, int expectedResult)
     {
         // var result = Service.FindTheMaximumProductBetweenTwoNumbersFromArray(numbers);
-        var result = Service.FindTheMaximumProductBetweenTwoNumbersFromArray2(numbers);
+        // var result = Service.FindTheMaximumProductBetweenTwoNumbersFromArray2(numbers);
+        var result = Service.FindTheMaximumProductBetweenTwoNumbersFromArray3(numbers);
         Assert.Equal(expectedResult, result);
     }
 }
